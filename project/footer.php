@@ -36,6 +36,6 @@
 
    </div>
 
-   <p class="credit"> copyright ©️ <?php echo date('Y'); ?> created by <span>Vignesh M | All rights reserved</span> </p>
+   <p class="credit"> <SPAN>copyright<SPAN></SPAN> ©️ <?php echo date('Y'); ?> created by <span><B>Vignesh M</B> | All rights reserved <b>| THE FRESH MARKET™️</b></span> </p>
 
 </section>

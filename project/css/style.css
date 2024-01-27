@@ -360,7 +360,7 @@ section{
 
 .home .content h3{
    font-size: 5.5rem;
-   color:var(--white);
+   color:var(--light-white);
    text-transform: uppercase;
 }
 
@@ -375,14 +375,14 @@ section{
    max-width: 1200px;
    margin:0 auto;
    display: grid;
-   grid-template-columns: repeat(auto-fit, 30rem);
+   grid-template-columns: repeat(auto-fit,50rem);
    align-items: flex-start;
-   gap:1.5rem;
+   gap:10rem;
    justify-content: center;
 }
 
 .products .box-container .box{
-   border-radius: .5rem;
+   border-radius: 1rem;
    background-color: var(--white);
    box-shadow: var(--box-shadow);
    padding:2rem;
@@ -406,6 +406,7 @@ section{
    padding:1.2rem 1.4rem;
    border-radius: .5rem;
    border:var(--border);
+   text-align: center;
    margin:1rem 0;
    font-size: 2rem;
 }
@@ -413,7 +414,7 @@ section{
 .products .box-container .box .price{
    position: absolute;
    top:1rem; left:1rem;
-   border-radius: .5rem;
+   border-radius: 3rem;
    padding:1rem;
    font-size: 2.5rem;
    color:var(--white);
@@ -631,7 +632,7 @@ section{
    max-width: 1200px;
    margin:0 auto;
    display: grid;
-   grid-template-columns: repeat(auto-fit, 30rem);
+   grid-template-columns: repeat(auto-fit, 50rem);
    align-items: center;
    gap:1.5rem;
    justify-content: center;
@@ -640,7 +641,7 @@ section{
 .shopping-cart .box-container .box{
    text-align: center;
    padding:2rem;
-   border-radius: .5rem;
+   border-radius: 2rem;
    background-color: var(--white);
    box-shadow: var(--box-shadow);
    position: relative;

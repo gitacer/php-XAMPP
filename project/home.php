@@ -52,7 +52,7 @@ if(isset($_POST['add_to_cart'])){
 <section class="home">
 
    <div class="content">
-      <h3>Discover the world between the Pages</h3>
+      <h3>Your Daily Dose of Freshness, Right Here..!</h3>
       <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod? Reiciendis ut porro iste totam.</p> -->
       <a href="about.php" class="white-btn">Explore</a>
    </div>
@@ -104,7 +104,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="content">
          <h3>about us</h3>
-         <p>At<b> Odyssey</b>, our story unfolds through the enchanting world of literature. Since <b>26th January 2024</b>, we've embarked on a literary journey with a steadfast commitment to cultivating a love for books and fostering a community of avid readers.</p>
+         <p><b>Welcome to THE FRESH MARKET,</b> where the journey through nature's finest harvest begins. Established in 2024, we are your online haven for the freshest and most flavorful fruits and vegetables. </p>
          <a href="about.php" class="btn">read more</a>
       </div>
 

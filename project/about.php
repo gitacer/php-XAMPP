@@ -46,11 +46,12 @@ if(!isset($user_id)){
 
       <div class="content">
          <h3>why choose us?</h3>
-         <p>At Odyssey, our story unfolds through the enchanting world of literature. Since [establishment date], we've embarked on a literary journey with a steadfast commitment to cultivating a love for books and fostering a community of avid readers.</p>
+         <p><b>THE FRESH MARKET</b>, we're not just a marketplace; we're curators of quality and champions of a healthy lifestyle. Our mission is to deliver the abundance of nature to your doorstep, offering a vibrant selection of produce that celebrates the essence of freshness. With a passion for quality assurance, we meticulously source our bounty to ensure you experience the true taste of nature in every bite. Join us on this exciting venture, and let Nature's Bounty be your trusted companion in savoring the goodness that Mother Earth provides. Thank you for choosing us – your ultimate destination for nature's delightful treasures.</p>
+         
 
          <!-- <p><b>Our Mission:</b> Odyssey is dedicated to providing not just books, but gateways to new worlds, diverse perspectives, and boundless imagination. Our mission is to be a beacon for those seeking literary treasures, whether it's classic literature, contemporary fiction, or niche genres.</p> -->
 
-         <p><b>Team Odyssey / Vignesh M</b></p>
+         <p>Team of <b>THE FRESH MARKET</b></p>
          <!-- <p>odyssey@unom.in</p> -->
          <a href="contact.php" class="btn">contact us</a>
       </div>

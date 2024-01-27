@@ -85,14 +85,14 @@ if(isset($_POST['order_btn'])){
             $total_price = ($fetch_cart['price'] * $fetch_cart['quantity']);
             $grand_total += $total_price;
    ?>
-   <p> <?php echo $fetch_cart['name']; ?> <span>(<?php echo '$'.$fetch_cart['price'].'/-'.' x '. $fetch_cart['quantity']; ?>)</span> </p>
+   <p> <?php echo $fetch_cart['name']; ?> <span>(<?php echo '₹'.$fetch_cart['price'].'/-'.' x '. $fetch_cart['quantity']; ?>)</span> </p>
    <?php
       }
    }else{
       echo '<p class="empty">your cart is empty</p>';
    }
    ?>
-   <div class="grand-total"> grand total : <span>$<?php echo $grand_total; ?>/-</span> </div>
+   <div class="grand-total"> grand total : <span>₹<?php echo $grand_total; ?>/-</span> </div>
 
 </section>
 
@@ -118,13 +118,13 @@ if(isset($_POST['order_btn'])){
             <select name="method">
                <option value="cash on delivery">cash on delivery</option>
                <option value="credit card">credit card</option>
-               <option value="paypal">paypal</option>
+               <option value="paypal">GooglePay</option>
                <option value="paytm">paytm</option>
             </select>
          </div>
          <div class="inputBox">
             <span>address line 01 :</span>
-            <input type="number" min="0" name="flat" required placeholder="e.g. flat no.">
+            <input type="number" min="0" name="flat" required placeholder="e.g. Door No.">
          </div>
          <div class="inputBox">
             <span>address line 01 :</span>
@@ -132,19 +132,19 @@ if(isset($_POST['order_btn'])){
          </div>
          <div class="inputBox">
             <span>city :</span>
-            <input type="text" name="city" required placeholder="e.g. mumbai">
+            <input type="text" name="city" required placeholder="e.g. Chennai">
          </div>
          <div class="inputBox">
             <span>state :</span>
-            <input type="text" name="state" required placeholder="e.g. maharashtra">
+            <input type="text" name="state" required placeholder="e.g. Tamil Nadu">
          </div>
          <div class="inputBox">
             <span>country :</span>
-            <input type="text" name="country" required placeholder="e.g. india">
+            <input type="text" name="country" required placeholder="e.g.India">
          </div>
          <div class="inputBox">
             <span>pin code :</span>
-            <input type="number" min="0" name="pin_code" required placeholder="e.g. 123456">
+            <input type="number" min="0" name="pin_code" required placeholder="e.g. 600115">
          </div>
       </div>
       <input type="submit" value="order now" class="btn" name="order_btn">
