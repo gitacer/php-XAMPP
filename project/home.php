@@ -83,7 +83,7 @@ if(isset($_POST['add_to_cart'])){
       <?php
          }
       }else{
-         echo '<p class="empty">No Books available! Please come back later</p>';
+         echo '<p class="empty">No fruits available at the moment! Please come back later</p>';
       }
       ?>
    </div>
